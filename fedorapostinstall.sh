@@ -5,7 +5,7 @@
 # GPL
 #
 # Syntaxe: # su -c ./fedorainstall.sh
-VERSION="1.0"
+VERSION="1.1"
 
 #=============================================================================
 # Liste des applications à installer
@@ -25,7 +25,7 @@ LISTE=$LISTE" iperf ifstat wireshark arp-scan nmap"
 # System
 LISTE=$LISTE" hardinfo htop wine conky terminator lm_sensors"
 # Web
-LISTE=$LISTE" chromium pino pidgin purple-plugin_pack-pidgin"
+LISTE=$LISTE" chromium filezilla pino pidgin purple-plugin_pack-pidgin"
 
 #=============================================================================
 
